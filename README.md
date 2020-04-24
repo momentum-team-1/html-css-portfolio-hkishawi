@@ -2,7 +2,7 @@
 
 ## Directions
 
-In this homework, you will build a web site about yourself. The website should have:
+In this hokmework, you will build a web site about yourself. The website should have:
 
 * A homepage with your picture and some information introducing yourself, as well as links to other places you can be found online.
 * A project page that lists your two projects so far and links to them.
