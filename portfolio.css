@@ -1,7 +1,103 @@
-.body {
-    font-family: roboto; 
+html {
+    border-left: 30px solid gray;
+    border-right: 30px solid gray;
+    height: 100%;
 }
 
+.body {
+    font-family: "Merriweather";
+    justify-content: center;
+}
+
+.toptophead {
+    font-size:20px;
+    text-align: center;
+}
+
+.tophead {
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav
+
 .subhead {
-    font-size: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#homeimg {
+    justify-content: center;
+    background: no-repeat,
+                linear-gradient(
+                rgba(15,40,98,1),
+                rgba(68, 0, 255, 0.404)
+                ),
+        url("/Users/HANNIMILLION/Documents/momentum_projects/portfolio-hkishawi/placebear_360.jpeg");
+    height: 100px;
+    width: "";
+    text-align: center;
+}    
+
+#homeimgtxt {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: flex-end;
+    align-self: center;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-self: center;
+    background: no-repeat,
+            linear-gradient(
+                rgba(15,40,98,1),
+                rgba(15,40,98,.2)
+                ),
+    url("https://placebear.com/g/200/300");
+}   
+
+.para {
+    text-align: center;
+    margin: auto;
+    border: solid;
+    padding: "";
+    border-color: silver;
+    color: white;
+    font-size: 10px;
+    width: 120px;
+    height: 30px auto;
+}
+
+.parabg {   
+    
+}
+{    
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center; 
+    flex-flow: row wrap;  
+}
+
+.parahome {
+    text-align: center;
+}
+
+.xpcard {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-around;
+    align-content: left;
+    align-self: center;
+    background-color: gray;
+    border: black;
+    color: white;
 }
